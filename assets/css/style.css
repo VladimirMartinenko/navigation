@@ -11,9 +11,8 @@
 .nav {
   margin: 5vh 0 2vh 25vh;
 }
-.nav2,
-.nav3,
-.nav4 {
+.nav2
+{
   display: none;
   position: absolute;
 }
@@ -25,14 +24,13 @@
   text-align: center;
   text-decoration: none;
   color: white;
+  border: 1px solid black;
 }
 .list {
-  /*border: 1px solid black;*/
-  background-color: blueviolet;
+    background-color: blueviolet;
 }
-.list-cat:hover > .nav2,
-.list-cat2:hover > .nav3,
-.list-cat3:hover > .nav4 {
+.list-cat:hover > .nav2
+ {
   display: block;
 }
 .list-cat {
@@ -41,11 +39,7 @@
 .list:hover {
   background-color: purple;
 }
-.nav3 {
-  left: 200px;
-  top: 40px;
-}
-.nav4 {
-  left: 200px;
+.position{
+  left:200px;
   top: 0px;
-}
+ }
